@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2> this is the first</h2>
+    <h3>{{ get_flashed_messages()[0] }}</h3>
+    <form action="/login" method="post">
+        <input type="text" name="username">
+        <input type="password" name="password">
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <script src="../static/add.js"></script>
+</head>
+<body>
+    <div align="center" style="margin-top: 40px;">
+        <img src="../static/add.png">
+    </div>
+    <div align="center" style="margin-top: 60px;">
+        <form name="form1">
+            <input type="text" placeholder="请输入第一个加数" name="add1"/>+
+            <input type="text" placeholder="请输入第二个加数" name="add2"/>=
+            <input type="text" readonly="readonly" placeholder="结果" name="sum"/>
+            <input type="submit" value="计算" onclick="add()"/>
+        </form>
+    </div>
+</body>
+</html>
